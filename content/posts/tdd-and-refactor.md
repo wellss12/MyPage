@@ -9,7 +9,7 @@ tags:
 - TDD
 - Refactor
 thumbnailImagePosition: left
-thumbnailImage: /images/tdd-cover.png
+thumbnailImage: https://i.imgur.com/qrHCHdl.png
 ---
 
 

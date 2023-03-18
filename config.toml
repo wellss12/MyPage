@@ -18,7 +18,7 @@ defaultContentLanguage = "en-us"
 title = "Hugo tranquilpeak theme"
 theme = "hugo-tranquilpeak-theme"
 disqusShortname = "wells-6"
-# googleAnalytics = "UA-123-45"
+googleAnalytics = "G-M1C3Q0WKV6"
 paginate = 7
 canonifyurls = true
 
@@ -204,7 +204,7 @@ canonifyurls = true
   autoThumbnailImage = true
 
 #   Your favicon path, default is "/favicon.png"
-    favicon = "images/favicon.ico"
+  favicon = "images/favicon.ico"
 
   # ------------------
   # External resources
@@ -339,7 +339,7 @@ canonifyurls = true
   #      gravatarEmail =
   # Google Analytics
   #  >> See googleAnalytics
-  #    googleAnalytics =
+      
   # Your Facebook user ids used to connect your blog with your facebook user accounts (Facebook Insights). Separate ids with comma. e.g : 9830047,1003342
   #  fbAdminIds =
   # Your Facebook app id used to connect your blog with your facebook app account (Facebook Insights). E.g : 9841307
@@ -351,7 +351,6 @@ canonifyurls = true
   [params.comment]
     [params.comment.disqus]
       enable = true
-      shortname = "wells-6"
     [params.comment.gitalk]
       enable = false
       # clientId =
@@ -365,7 +364,8 @@ canonifyurls = true
         distractionFreeMode = false
         enableHotKey = true
         pagerDirection = "first"
-
+#  [params.googleAnalytics]
+#      async = true
   # --------------------
   # Header configuration
   # --------------------

@@ -57,7 +57,11 @@
         <link rel="stylesheet" href="{{ . | absURL }}">
       {{ end }}
     {{ end }}
-
+    
+    <!--不蒜子-->
+    <script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+    <!-- -->
+    
   {{ if not .Site.IsServer }}
     {{ if or .Params.googleAnalytics.async .Params.ga.async }}
       {{ template "_internal/google_analytics_async.html" . }}
